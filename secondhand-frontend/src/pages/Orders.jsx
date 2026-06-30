@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { orderAPI } from '../services/api';
-import './Orders.css';
+import '../styles/Order.css';
 
 function Orders() {
   const [orders, setOrders] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cartAPI, orderAPI } from '../services/api';
-import './Cart.css';
+import '../styles/Cart.css';
 
 function Cart() {
   const [cartItems, setCartItems] = useState([]);

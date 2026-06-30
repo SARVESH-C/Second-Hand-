@@ -1,7 +1,7 @@
 import {useState, useEffect } from 'react';
 import {useParams} from 'react-router-dom';
-import {prodctAPI, cartAPI, reviewAPI } from '../services/api';
-import './ProductDetail.css';
+import {productAPI, cartAPI, reviewAPI } from '../services/api';
+import '../styles/ProductDetail.css';
 
 function ProductDetails(){
     const { id } = useParam();
@@ -136,3 +136,4 @@ function ProductDetails(){
   );
         
 }
+export default ProductDetails;

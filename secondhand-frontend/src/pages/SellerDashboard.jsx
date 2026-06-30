@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { productAPI } from '../services/api';
-import './SellerDashboard.css';
+import '../styles/sellerDashboard.css';
 
 function SellerDashboard() {
   const [products, setProducts] = useState([]);

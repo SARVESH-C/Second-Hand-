@@ -1,5 +1,5 @@
 import {Link, useNavigate} from 'react-router-dom';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 function Navbar({isLoggedIn, setIsLoggedIn, userRole}){
     const navigate = useNavigate();
@@ -43,3 +43,4 @@ function Navbar({isLoggedIn, setIsLoggedIn, userRole}){
 
     )
 }
+export default Navbar
